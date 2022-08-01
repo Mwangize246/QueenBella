@@ -1,6 +1,6 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/AnonyMouSeTEAM/QueenBella /root/QueenBella
+RUN git clone https://github.com/Mwangize246/QueenBella /root/QueenBella
 WORKDIR /root/QueenBella/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
